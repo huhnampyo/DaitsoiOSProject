@@ -3,7 +3,7 @@ import WebKit
 
 struct ContentView: View {
     
-    let url = "https://daitso.kbdigital.co.kr/wp-login.php"
+    let url = "http://daitso.kbhub.co.kr/"
 
     // showAlert가 true면 알림창이 뜬다 // If showAlert is true, a notification window pops up
     @State var showAlert: Bool = false
@@ -13,7 +13,9 @@ struct ContentView: View {
     
     // 웹뷰 확인/취소 작업을 처리하기 위한 핸드러를 받아오는 변수 // Variable that gets the handler to handle the web view confirmation/cancel operation
     @State var confirmHandler: (Bool) -> Void = {_ in }
-    
+
+    var testNumber = 1
+
     var body: some View {
         WebView(webView: WKWebView(), request: URLRequest(url: URL(string: url)!), showAlert: self.$showAlert, alertMessage: self.$alertMessage, confirmHandler: self.$confirmHandler)
             .alert(isPresented: self.$showAlert) { () -> Alert in

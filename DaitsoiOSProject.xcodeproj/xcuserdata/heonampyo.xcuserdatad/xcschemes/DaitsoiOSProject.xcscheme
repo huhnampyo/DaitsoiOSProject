@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scheme
+   version = "1.3">
+   <BuildAction>
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForRunning = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "2C869C51265D1A1000A838D5"
+               BuildableName = "DaitsoiOSProject.app"
+               BlueprintName = "DaitsoiOSProject"
+               ReferencedContainer = "container:DaitsoiOSProject.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
+   </BuildAction>
+   <LaunchAction
+      useCustomWorkingDirectory = "NO"
+      buildConfiguration = "Debug"
+      allowLocationSimulation = "YES">
+      <BuildableProductRunnable>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "2C869C51265D1A1000A838D5"
+            BuildableName = "DaitsoiOSProject.app"
+            BlueprintName = "DaitsoiOSProject"
+            ReferencedContainer = "container:DaitsoiOSProject.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+   </LaunchAction>
+</Scheme>
